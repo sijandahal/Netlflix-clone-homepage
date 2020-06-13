@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix and Chill</title>
+  <link rel="stylesheet" href="/app/sass/styles.css">
+</head>
+<body>
+   <header class = "header">
+     <nav class = "nav">
+       <div class="nav__logo">
+         <img src="/img/logo.svg" alt="NetflixLogo" class = "nav__logo--logo">
+       </div>
+       <a href="#" class = "btn small-btn">Sign In</a>
+     </nav>
+
+     <div class="container">
+       <div class="container__details">
+       <h1> Unlimited Movies,TV shows, and more. </h1>
+       <h4>Watch anywhere. Cancel anytime</h4>
+       <form class = "form">
+         <input type="email" name="Search" class="form__input" id ="email__field" placeholder = "Email Address" required>
+      <div class="form__submit">   <input type="submit" class = "btn large-btn" value="Try it now"> <i class="fas fa-arrow-right"></i> </div>
+       </form>
+       <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      </div>
+     </div>
+   </header>
+
+   <main>
+
+<!-- Flex containerss -->     
+     <div class="flex__container">
+       <div class="flex">
+       <div class="flex__details">
+         <h1>Enjoy on your TV.</h1>
+         <h4>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+        </h4>
+       </div>
+       <img src="./img/tv.png" alt="TV Image" class = "flex__image">
+       <video class = "video1" autoplay muted loop>
+        <source src = "img/videoplayback.mp4" class = "video__mp4">
+      </video>
+      </div>
+
+      <div class="border"></div>
+
+      <div class="flex">
+        <img src="./img/mobile-0819.jpg" alt="TV Image" class = "flex__image--mobile">
+        <div class="flex__details">
+          <h1>Download your shows to watch offline.</h1>
+          <h4>Save your favorites easily and always have something to watch. </h4>
+        </div>
+       </div>
+       <div class="border"></div>
+
+       <div class="flex">
+        <div class="flex__details">
+          <h1>Watch everywhere.
+            </h1>
+          <h4>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.
+         </h4>
+        </div>
+        <img src="./img/device-pile.png" alt="TV Image" class = "flex__image last-image">
+        <video class = "video3" autoplay loop>
+          <source src = "img/production ID_4063585.mp4" class = "video__mp4">
+        </video>
+       </div>
+       
+       <div class="border"></div>
+     </div>
+   </main>
+
+   <div class="faq">
+     <div class="faq__container">
+     <h1> Frequently Asked Questions</h1>
+     <div class="accordion">
+      <div class="accordion__header" id = "accordion__header">
+        <h2>What is Netflix  </h2>
+        <i class="fas fa-plus"></i>
+      </div>
+       <div class="accordion__answer">
+       <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+
+        You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+        </p>
+     </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion__header" id = "accordion__header">
+        <h2> How much does Netflix cost  </h2>
+     <i class="fas fa-plus"></i> 
+      </div>
+      <div class="accordion__answer">
+        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from USD7.99 to USD11.99 a month. No extra costs, no contracts.
+
+         </p>
+      </div>
+     </div>
+
+     
+     <div class="accordion">
+      <div class="accordion__header" id = "accordion__header">
+        <h2>Where can I watch ? </h2>
+          <i class="fas fa-plus"></i> 
+      </div>
+      <div class="accordion__answer">
+        <p>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+          You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+          
+         </p>
+      </div>
+     </div>
+
+     
+     <div class="accordion">
+      <div class="accordion__header" id = "accordion__header">
+      <h2>How do I cancel ?</h2>
+     <i class="fas fa-plus"></i> 
+    </div>
+      <div class="accordion__answer">
+        <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+         </p>
+      </div>
+     </div>
+
+     
+     <div class="accordion">
+      <div class="accordion__header" id = "accordion__header">
+        <h2>What can I watch on Netflix ?  </h2>
+       <i class="fas fa-plus"></i> 
+      </div>
+      <div class="accordion__answer">
+        <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+
+         </p>
+      </div>
+     </div>
+
+     
+     
+   </div>
+   </div>
+
+     <script src="/app/js/main.js"></script>
+   <script src="https://kit.fontawesome.com/bfd368f197.js" crossorigin="anonymous"></script>
+</body>
+</html>
